@@ -1,0 +1,44 @@
+.container{
+    background: #19254c;
+    margin:auto;
+    border: red solid 2px;
+    margin-top:10rem;
+    width: 500px;
+    display:flex;
+    justify-content:space-between;
+    text-align: center;
+}
+#home-score{
+    border:black solid 2px;
+    margin-left:2rem;
+
+
+}
+#guest-score{
+    border: black solid 2px;
+    margin-right:2rem;
+   
+}
+#home-board,
+#guest-board{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    margin:1rem 0 2rem 0;
+    color:#f84f6a;
+    background: #0a0001;
+    height:4rem;
+
+}
+
+#home-tag,
+#guest-tag{
+    color:white;
+    margin:0;
+}
+
+#reset{
+    display:flex;
+    align-items: center;
+  
+}
